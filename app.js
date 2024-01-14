@@ -19,7 +19,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.set('view engine', 'ejs');
 
 // session/connect-mongo db
-mongoose.connect('mongodb://127.0.0.1:27017/test', { useUnifiedTopology: true })
+mongoose.connect('mongodb+srv://bangs:pass@test.wsqcy.mongodb.net/test?retryWrites=true&w=majority/test', { useUnifiedTopology: true })
   .then(() => {
     console.log('Connected to MongoDB success!');
   })
