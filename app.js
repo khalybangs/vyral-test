@@ -39,7 +39,7 @@ app.use(session( {
     },
     store: new MongoStore({ 
         mongooseConnection: mongoose.connection, 
-        mongoUrl:'mongodb://127.0.0.1:27017/test',
+        mongoUrl:'mongodb+srv://bangs:pass@test.wsqcy.mongodb.net/test?retryWrites=true&w=majority/test',
         autoRemove: 'disabled',
         secret: 'oral',
         touchAfter: 1000 * 60 * 60* 24
