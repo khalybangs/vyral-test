@@ -1,0 +1,30 @@
+{
+  "name": "vyral-rail",
+  "version": "1.0.0",
+  "description": "Interactive News Medium (testing)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Beam Wares LTD",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "connect-mongo": "^5.1.0",
+    "connect-mongodb-session": "^3.1.1",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mongodb": "^3.6.6",
+    "mongoose": "^8.0.4",
+    "nexmo": "^2.9.1",
+    "nodemailer": "^6.9.8",
+    "nodemailer-express-handlebars": "^6.1.0",
+    "nodemon": "^3.0.2",
+    "path": "^0.12.7",
+    "paystack": "^2.0.1",
+    "serve-favicon": "^2.5.0",
+    "xss": "^1.0.14"
+  }
+}
